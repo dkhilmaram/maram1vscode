@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="account.css">
+    <title>Formulaire d'Inscription Utilisateur</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">go back</a>
+    </nav>
+    <form id="registration-form" action="#" method="POST">
+        <fieldset>
+            <legend>Formulaire d'Inscription Utilisateur</legend>
+            <div class="row">
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" required placeholder="Entrez votre nom"><br>
+            </div>
+
+            <div class="row">
+                <label for="prenom">Prénom :</label><br>
+                <input type="text" id="prenom" name="prenom" required placeholder="Entrez votre prénom"><br>
+            </div>
+
+            <div class="row">
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required placeholder="Entrez votre email"><br>
+            </div>
+
+            <div class="row">
+                <label for="password">Mot de passe :</label><br>
+                <input type="password" id="password" name="password" required placeholder="Entrez un mot de passe"><br>
+            </div>
+
+            <div class="row">
+                <label for="password-confirm">Confirmer mot de passe :</label><br>
+                <input type="password" id="password-confirm" name="password-confirm" required placeholder="Confirmez votre mot de passe"><br>
+            </div>
+
+            <div class="row">
+                <label>Genre :</label><br>
+                <input type="radio" id="masculin" name="genre" value="masculin" required>
+                <label for="masculin">Masculin</label>
+                <input type="radio" id="feminin" name="genre" value="feminin" required>
+                <label for="feminin">Féminin</label><br>
+            </div>
+
+            <div class="row">
+                <label for="pays">Pays :</label><br>
+                <select id="pays" name="pays" required>
+                    <option value="Tunisie">Tunisie</option>
+                    <option value="Algerie">Algérie</option>
+                    <option value="Italie">Italie</option>
+                    <option value="Maroc">Maroc</option>
+                    <option value="Canada">Canada</option> 
+                    <option value="Canada">egypte</option>
+                   <option value="Canada">libye</option>
+                    <option value="Canada">irak</option>
+                    <option value="Canada">palestine</option>
+                    <option value="Canada">oman</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <button type="submit">envoyer</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

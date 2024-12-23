@@ -1,0 +1,65 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/020/336/289/original/samsung-logo-samsung-icon-free-free-vector.jpg');
+ 
+   
+
+
+
+} h1{
+    color:deepskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    justify-content: flex-end;
+    width: 1600px;
+    height: 30px;
+    background-color:rgb(8, 8, 8);
+   
+
+} 
+header{
+    text-align:center ;
+    background-color:rgb(7, 7, 7) ;
+    padding: 20px 0;
+}
+
+h1:hover{
+    position: sticky;
+    color: deeppink;
+    box-shadow: inset;
+}
+nav{
+    color:deepskyblue;
+    font-size: 2em;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    display :space-between;
+    background-color: rgb(8, 8, 8);
+    width: 1600px;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+   
+    
+}
+
+
+nav a{
+    display:space-between;
+    color: dodgerblue;
+    justify-content: flex-end;
+    font-weight: 600;
+    font-size: 1em;
+    
+
+
+}nav a:hover{
+    color:deeppink;
+    position: sticky;
+
+}
